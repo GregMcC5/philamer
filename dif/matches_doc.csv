@@ -507,7 +507,7 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990029617620106381,AQP4848.0001.001,No,[],[]
 990029617630106381,AQP4849.0001.001,Yes,['keywords'],['author']
 990029619660106381,AQP5052.0001.001,No,[],[]
-990029619680106381,AQP5054.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
+990029619680106381,AQP5054.0001.001,No,[],"['publication place', 'publication date']"
 990029619690106381,AQP5055.0001.001,Yes,['keywords'],[]
 990029620910106381,AQP5177.0001.001,No,[],['keywords']
 990029670660106381,AQQ0190.0001.001,Yes,['notes'],['notes']
@@ -720,7 +720,7 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990029150940106381,AQJ7926.0001.001,Yes,['keywords'],[]
 990029150950106381,AQJ7927.0001.001,Yes,['keywords'],[]
 990029150960106381,AQJ7928.0001.001,Yes,['keywords'],[]
-990029150970106381,AQJ7929.0001.001,Yes,['keywords'],"['publication place', 'publisher', 'publication date']"
+990029150970106381,AQJ7929.0001.001,Yes,['keywords'],"['publication place', 'publication date']"
 990029150990106381,AQJ7932.0001.001,No,[],[]
 990029151040106381,AQJ7937.0001.001,Yes,['keywords'],[]
 990029151090106381,AQJ7942.0001.001,Yes,['keywords'],[]
@@ -765,7 +765,7 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990029374400106381,AQM0427.0001.001,No,[],[]
 990029515750106381,AQN4588.0001.001,Yes,['keywords'],[]
 990029516270106381,AQN4640.0001.001,No,[],[]
-990029516300106381,AQN4643.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
+990029516300106381,AQN4643.0001.001,No,[],"['publication place', 'publication date']"
 990029516310106381,AQN4644.0001.001,No,[],[]
 990029533250106381,AQN6353.0001.001,Yes,['keywords'],[]
 990029533280106381,AQN6356.0001.001,Yes,['publication date'],['publication date']
@@ -946,7 +946,7 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990008776950106381,ADT4855.0001.001,No,[],[]
 990008777030106381,ADT4863.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990008777070106381,ADT4867.0001.001,Yes,['keywords'],[]
-990008777100106381,ADT4870.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
+990008777100106381,ADT4870.0001.001,No,[],"['publication place', 'publication date']"
 990008777110106381,ADT4871.0001.001,Yes,['author'],['author']
 990008777180106381,ADT4878.0001.001,No,[],[]
 990008777280106381,ADT4888.0001.001,Yes,['author'],[]
@@ -1029,7 +1029,7 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990028551080106381,APZ1175.0001.001,No,[],[]
 990028551090106381,APZ1176.0001.001,No,[],[]
 990028551100106381,APZ1177.0001.001,No,[],[]
-990028551110106381,APZ1178.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
+990028551110106381,APZ1178.0001.001,No,[],"['publication place', 'publication date']"
 990028571280106381,APZ3205.0001.001,Yes,['keywords'],[]
 990028571290106381,APZ3206.0001.001,Yes,"['publisher', 'keywords']","['publisher', 'keywords']"
 990028571300106381,APZ3207.0001.001,Yes,['keywords'],['publication date']
@@ -1362,7 +1362,7 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990027929120106381,APS8648.0001.001,No,[],[]
 990027929130106381,APS8649.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
 990027929140106381,APS8650.0001.001,Yes,"['publication place', 'keywords']",[]
-990027929150106381,APS8651.0001.001,Yes,['author'],"['author', 'publication place', 'publisher', 'publication date']"
+990027929150106381,APS8651.0001.001,Yes,['author'],"['author', 'publication place', 'publication date']"
 990027929160106381,APS8652.0001.001,Yes,['author'],[]
 990027929220106381,APS8658.0001.001,No,[],[]
 990027929230106381,APS8659.0001.001,Yes,['keywords'],[]
@@ -1437,8 +1437,8 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990016412180106381,AGZ9126.0002.001,No,[],['title']
 990016532410106381,AHB2432.0001.001,No,[],[]
 990016651710106381,AHC5611.0001.001,Yes,['keywords'],[]
-990016757690106381,AHD7618.0000.001,No,[],"['publication place', 'publisher', 'publication date']"
-990016766150106381,AHD8465.0001.001,Yes,['author'],"['author', 'publication place', 'publisher', 'publication date']"
+990016757690106381,AHD7618.0000.001,No,[],"['publication place', 'publication date']"
+990016766150106381,AHD8465.0001.001,Yes,['author'],"['author', 'publication place', 'publication date']"
 990017183170106381,AHJ1971.1899.001,Yes,"['title', 'publication place', 'publication date']",['title']
 990017185260106381,AHJ2181.0001.001,Yes,['author'],[]
 990017185500106381,AHJ2207.1930.001,Yes,"['title', 'author', 'publication place', 'publication date']",['title']
@@ -1902,14 +1902,14 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990016255260106381,AGY1575.0002.001,Yes,"['notes', 'keywords']","['title', 'notes']"
 990016283230106381,AGY4463.0001.001,Yes,"['title', 'keywords']",['keywords']
 990016290190106381,AGY5192.0001.001,No,[],[]
-990016306140106381,AGY6866.0001.001,Yes,['author'],"['publication place', 'publisher', 'publication date']"
+990016306140106381,AGY6866.0001.001,Yes,['author'],"['publication place', 'publication date']"
 990016306360106381,AGY6888.0001.001,No,[],['title']
-990016306370106381,AGY6889.0001.001,Yes,"['author', 'keywords']","['publication place', 'publisher', 'publication date', 'keywords']"
-990016306940106381,AGY6946.0001.001,Yes,['keywords'],"['publication place', 'publisher', 'publication date']"
-990016306950106381,AGY6947.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
-990016307020106381,AGY6954.0021.002,Yes,['keywords'],"['title', 'publication place', 'publisher', 'publication date']"
+990016306370106381,AGY6889.0001.001,Yes,"['author', 'keywords']","['publication place', 'publication date', 'keywords']"
+990016306940106381,AGY6946.0001.001,Yes,['keywords'],"['publication place', 'publication date']"
+990016306950106381,AGY6947.0001.001,No,[],"['publication place', 'publication date']"
+990016307020106381,AGY6954.0021.002,Yes,['keywords'],"['title', 'publication place', 'publication date']"
 990016307260106381,AGY6978.0001.001,Yes,['keywords'],[]
-990016307520106381,AGY7004.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
+990016307520106381,AGY7004.0001.001,No,[],"['publication place', 'publication date']"
 990016310320106381,AGY7288.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990016323880106381,AGY9509.0001.001,No,[],[]
 990016351920106381,AGZ2494.0001.001,Yes,"['notes', 'keywords']",[]
@@ -2081,25 +2081,25 @@ mms_id,dlxs_id,value mismatches?,mismatched Fields,fields where DLXS string is l
 990020916730106381,AJZ3519.0001.001,No,[],[]
 990020917440106381,AJZ3593.0001.001,Yes,['publisher'],[]
 990020917490106381,AJZ3598.0001.001,Yes,"['publisher', 'notes', 'keywords']",['title']
-990020959050106381,AJZ8102.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
-990020960610106381,AJZ8258.0001.001,No,[],"['publication place', 'publisher', 'publication date']"
+990020959050106381,AJZ8102.0001.001,No,[],"['publication place', 'publication date']"
+990020960610106381,AJZ8258.0001.001,No,[],"['publication place', 'publication date']"
 990021012750106381,AKA4020.0001.001,Yes,"['author', 'keywords']",[]
 990021050590106381,AKA8240.0001.001,Yes,['author'],[]
-990021295480106381,AKD5150.0001.001,No,[],"['publication place', 'publisher', 'publication date', 'keywords']"
-990021303410106381,AKD5989.0001.001,Yes,['author'],"['publication place', 'publisher', 'publication date', 'keywords']"
+990021295480106381,AKD5150.0001.001,No,[],"['publication place', 'publication date', 'keywords']"
+990021303410106381,AKD5989.0001.001,Yes,['author'],"['publication place', 'publication date', 'keywords']"
 990021307370106381,AKD6391.1937.001,Yes,"['title', 'publication place', 'publication date']",['title']
-990021321530106381,AKD7849.0001.001,Yes,['author'],"['publication place', 'publisher', 'publication date', 'keywords']"
-990021326020106381,AKD8319.1936.144,Yes,"['title', 'author', 'keywords']","['title', 'publication place', 'publisher', 'publication date']"
-990021326270106381,AKD8344.1937.001,Yes,"['title', 'author']","['title', 'publication place', 'publisher', 'publication date', 'keywords']"
-990021336060106381,AKD9353.0001.001,No,[],"['publication place', 'publisher', 'publication date', 'keywords']"
+990021321530106381,AKD7849.0001.001,Yes,['author'],"['publication place', 'publication date', 'keywords']"
+990021326020106381,AKD8319.1936.144,Yes,"['title', 'author', 'keywords']","['title', 'publication place', 'publication date']"
+990021326270106381,AKD8344.1937.001,Yes,"['title', 'author']","['title', 'publication place', 'publication date', 'keywords']"
+990021336060106381,AKD9353.0001.001,No,[],"['publication place', 'publication date', 'keywords']"
 990021339090106381,AKD9680.0001.006,Yes,"['publication place', 'publisher', 'publication date', 'keywords']",['title']
 990021345450106381,AKE0356.0001.003,No,[],"['title', 'keywords']"
 990021346950106381,AKE0511.0001.001,Yes,"['author', 'publication place', 'publication date']","['title', 'author', 'keywords']"
-990021365170106381,AKE2396.0001.001,Yes,['author'],"['publication place', 'publisher', 'publication date', 'keywords']"
+990021365170106381,AKE2396.0001.001,Yes,['author'],"['publication place', 'publication date', 'keywords']"
 990021371560106381,AKE3082.0003.001,Yes,"['publication place', 'publication date']","['title', 'keywords']"
 990021371570106381,AKE3083.1900.010,Yes,"['title', 'author']","['title', 'keywords']"
-990021371940106381,AKE3122.0001.004,No,[],"['title', 'publication place', 'publisher', 'publication date', 'keywords']"
-990021371950106381,AKE3123.0001.004,No,[],"['title', 'publication place', 'publisher', 'publication date', 'keywords']"
+990021371940106381,AKE3122.0001.004,No,[],"['title', 'publication place', 'publication date', 'keywords']"
+990021371950106381,AKE3123.0001.004,No,[],"['title', 'publication place', 'publication date', 'keywords']"
 990021387140106381,AKE4791.1901.004,Yes,['title'],"['title', 'keywords']"
 990021408700106381,AKE7230.1913.001,Yes,"['title', 'publication place']","['title', 'keywords']"
 990021734350106381,AKJ0615.0001.001,Yes,['keywords'],[]

@@ -23,7 +23,7 @@ language = []
 keywords = []
 
 headers = ["mms_id", "dlxs_id", "alma_value", 'dlxs_value']
-error_lists = [title, author, publication_date, publisher, publication_date, notes, language, keywords]
+error_lists = [title, author, publication_place, publisher, publication_date, notes, language, keywords]
 for error_list in error_lists:
     error_list.append(headers)
 
@@ -93,7 +93,7 @@ for alma_record in alma:
 #-----------------------
 #-writing csv
 
-file_name = ["title", "author", "publication_date", "publisher", "publication_date", "notes", "language", "keywords"]
+file_name = ["title", "author", "publication_place", "publisher", "publication_date", "notes", "language", "keywords"]
 i = 0
 for error_list in error_lists:
     mu.write_csv(f"ErrorValueComparisons/{file_name[i]}.csv", error_list)

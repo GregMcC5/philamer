@@ -52,8 +52,8 @@ for mms_alma in alma_dict.keys():
             #removes Volume and editions specifications
             #removes references to "microform", "electronic resource", etc in Alma titles
 
-            if len(dlxs_dict[mms_dlxs][3].strip()) > len(alma_dict[mms_alma][2].strip()):
-                dlxs_longer_list.append("author")
+            if len(dlxs_dict[mms_dlxs][2]) > len(alma_dict[mms_alma][1]):
+                dlxs_longer_list.append("title")
 
             if "[Vol. " in dlxs_dict[mms_dlxs][2]:
                 dlxs_edit = dlxs_dict[mms_dlxs][2].replace(": ","").replace(":", "").replace("/ ", "").replace(",", "").strip(".").replace(".", "").lower().replace(";", "")
@@ -72,7 +72,7 @@ for mms_alma in alma_dict.keys():
             #-checking author-
             #if a title has a paranthetical, checks to see if paranthetical is in corresponding string, or is equal to the other's paranthetical
 
-            if len(dlxs_dict[mms_dlxs][3]) > len(alma_dict[mms_alma][2]):
+            if len(dlxs_dict[mms_dlxs][3].strip()) > len(alma_dict[mms_alma][2].strip()):
                 dlxs_longer_list.append("author")
 
             if "(" and ")" in dlxs_dict[mms_dlxs][3]:
@@ -144,6 +144,9 @@ for mms_alma in alma_dict.keys():
 
             if len(dlxs_dict[mms_dlxs][6]) > len(alma_dict[mms_alma][3]):
                 dlxs_longer_list.append("publication place")
+            if "publicaiton place" in dlxs_longer_list:
+                if dlxs_dict[mms_dlxs][6] == "unknown" and alma_dict[mms_alma][3] == "":
+                    dlxs_longer_list.remove("publication place")
 
             if dlxs_dict[mms_dlxs][6] == "unknown":
                 dlxs_pub_place = ""
@@ -159,6 +162,9 @@ for mms_alma in alma_dict.keys():
 
             if len(dlxs_dict[mms_dlxs][7]) > len(alma_dict[mms_alma][4]):
                 dlxs_longer_list.append("publisher")
+            if "publisher" in dlxs_longer_list:
+                if dlxs_dict[mms_dlxs][7] == "unknown" and alma_dict[mms_alma][4] == "":
+                    dlxs_longer_list.remove("publisher")
 
             if dlxs_dict[mms_dlxs][7] == "unknown":
                 dlxs_publisher = ""
@@ -173,6 +179,9 @@ for mms_alma in alma_dict.keys():
 
             if len(dlxs_dict[mms_dlxs][8]) > len(alma_dict[mms_alma][5]):
                 dlxs_longer_list.append("publication date")
+            if "publicaiton date" in dlxs_longer_list:
+                if dlxs_dict[mms_dlxs][8] == "unknown" and alma_dict[mms_alma][5] == "":
+                    dlxs_longer_list.remove("publication date")
 
             if dlxs_dict[mms_dlxs][8] == "unknown":
                 dlxs_pub_date = ""
@@ -236,7 +245,7 @@ for mms_alma in alma_dict.keys():
 
             keyword_error_count = 0
             if fixed_alma_keywords and fixed_dlxs_keywords:
-                for alma_keyword in fixed_alma_keywords: 
+                for alma_keyword in fixed_alma_keywords:
                     if alma_keyword not in fixed_dlxs_keywords:
                         keyword_error_count += 1
                 for dlxs_keyword in fixed_dlxs_keywords:

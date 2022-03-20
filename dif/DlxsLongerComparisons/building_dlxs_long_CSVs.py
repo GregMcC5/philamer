@@ -21,14 +21,14 @@ language = []
 keywords = []
 
 headers = ["mms_id", "dlxs_id", "alma_value", 'dlxs_value']
-longer_list = [title, author, publication_date, publisher, publication_date, notes, language, keywords]
+longer_list = [title, author, publication_place, publisher, publication_date, notes, language, keywords]
 for a_list in longer_list:
     a_list.append(headers)
 
 #-----------------------
 #-looping
 start_time = datetime.now()
-#print("started at:", start_time)
+print("started at:", start_time)
 
 for alma_record in alma:
     mms_alma = alma_record[0]
@@ -86,16 +86,15 @@ for alma_record in alma:
                         keywords_list.append(alma_record[8])
                         keywords_list.append(dlxs_record[11])
                         keywords.append(keywords_list)
-                    #print(f"one completed at {datetime.now()}")
+                    print(f"one completed at {datetime.now()}")
 
 #-----------------------
 #-writing csv
 
-file_name = ["title", "author", "publication_date", "publisher", "publication_date", "notes", "language", "keywords"]
+file_name = ["title", "author", "publication_place", "publisher", "publication_date", "notes", "language", "keywords"]
 i = 0
 for a_list in longer_list:
     mu.write_csv(f"DlxsLongerComparisons/{file_name[i]}.csv", a_list)
     i += 1
 
-#print(f"done at {datetime.now()}. This began at {start_time}")
-print("done)
+print(f"done at {datetime.now()}. This began at {start_time}")
