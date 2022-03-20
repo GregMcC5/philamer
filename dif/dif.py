@@ -144,7 +144,7 @@ for mms_alma in alma_dict.keys():
 
             if len(dlxs_dict[mms_dlxs][6]) > len(alma_dict[mms_alma][3]):
                 dlxs_longer_list.append("publication place")
-            if "publicaiton place" in dlxs_longer_list:
+            if "publication place" in dlxs_longer_list:
                 if dlxs_dict[mms_dlxs][6] == "unknown" and alma_dict[mms_alma][3] == "":
                     dlxs_longer_list.remove("publication place")
 
@@ -179,7 +179,7 @@ for mms_alma in alma_dict.keys():
 
             if len(dlxs_dict[mms_dlxs][8]) > len(alma_dict[mms_alma][5]):
                 dlxs_longer_list.append("publication date")
-            if "publicaiton date" in dlxs_longer_list:
+            if "publication date" in dlxs_longer_list:
                 if dlxs_dict[mms_dlxs][8] == "unknown" and alma_dict[mms_alma][5] == "":
                     dlxs_longer_list.remove("publication date")
 
@@ -216,6 +216,9 @@ for mms_alma in alma_dict.keys():
 
             if len(dlxs_dict[mms_dlxs][11]) > len(alma_dict[mms_alma][8]):
                 dlxs_longer_list.append("keywords")
+            if "keywords" in dlxs_longer_list:
+                if dlxs_dict[mms_dlxs][11] == "[]" and alma_dict[mms_alma][8] == "":
+                    dlxs_longer_list.remove("keywords")
 
             if dlxs_dict[mms_dlxs][11] == "[]":
                 dlxs_dict[mms_dlxs][11] = ""
