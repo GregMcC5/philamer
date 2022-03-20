@@ -52,8 +52,8 @@ for mms_alma in alma_dict.keys():
             #removes Volume and editions specifications
             #removes references to "microform", "electronic resource", etc in Alma titles
 
-            if len(dlxs_dict[mms_dlxs][2]) > len(alma_dict[mms_alma][1]):
-                dlxs_longer_list.append("title")
+            if len(dlxs_dict[mms_dlxs][3].strip()) > len(alma_dict[mms_alma][2].strip()):
+                dlxs_longer_list.append("author")
 
             if "[Vol. " in dlxs_dict[mms_dlxs][2]:
                 dlxs_edit = dlxs_dict[mms_dlxs][2].replace(": ","").replace(":", "").replace("/ ", "").replace(",", "").strip(".").replace(".", "").lower().replace(";", "")
