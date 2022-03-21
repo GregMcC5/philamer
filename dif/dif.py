@@ -205,6 +205,10 @@ for mms_alma in alma_dict.keys():
             #-----------------------------
             #-checking language-
             # in alma_to_csv.py I pulled each entry's  3-digit lanugage code from its 008 MARC field
+            dlxs_list = dlxs_dict[mms_dlxs][10].split(":")
+            if len(dlxs_list) > 2:
+                dlxs_longer_list.append("language")
+            
             dlxs_lang = dlxs_dict[mms_dlxs][10].split(":")[0].strip("['")
 
             if alma_dict[mms_alma][7].lower() != dlxs_lang:
