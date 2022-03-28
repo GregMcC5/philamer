@@ -11,7 +11,6 @@ with open(marc_file, 'rb') as data:
     reader = pymarc.MARCReader(data)
     for record in reader:
         marc_records.append(record)
-
 #--------------------------------------------
 #making a new list of marc records as json-friendly dicts
 
@@ -39,7 +38,7 @@ for record in marc_dicts:
         del record["fields"]
 
 #at this point, records that have multiple 650 fields have overwritten the last one.
-#mu.write_json("test_marc_dicts.json", marc_dicts)
+mu.write_json("test_marc_dicts.json", marc_dicts)
 
 for record in marc_dicts:
     for key, val in record.items():
@@ -50,7 +49,10 @@ for record in marc_dicts:
                     for subfield_items in val2:
                         if isinstance(subfield_items, dict):
                             for sub_key, sub_val in subfield_items.items():
-                                replace_dict[sub_key] = sub_val
+                                if sub_key not in replace_dict.keys(): #change
+                                    replace_dict[sub_key] = sub_val #change
+                                else: #change
+                                    replace_dict[sub_key] = replace_dict[sub_key] + " " + sub_val #change
             record[key] = replace_dict
 
 mu.write_json("test_marc_dicts.json", marc_dicts)

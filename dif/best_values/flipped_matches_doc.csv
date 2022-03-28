@@ -24,7 +24,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012569540106381,AFJ2298.0001.001,Yes,['keywords'],[]
 990006347620106381,ACS6881.0001.001,No,[],[]
 990025536490106381,ANG5071.0001.001,Yes,"['publication place', 'publication date']",[]
-990003955880106381,ABS3815.0001.001,Yes,['keywords'],['keywords']
+990003955880106381,ABS3815.0001.001,Yes,['keywords'],[]
 990002392810106381,ABA4805.0001.001,No,[],[]
 990029150890106381,AQJ7921.0001.001,Yes,['notes'],['notes']
 990039224150106381,BAB7486.0001.001,Yes,['keywords'],[]
@@ -34,7 +34,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012613330106381,AFJ6766.0001.001,No,[],['author']
 990012613790106381,AFJ6812.0001.001,No,[],[]
 990002780410106381,ABE4397.0001.001,Yes,['publication place'],[]
-990004672350106381,ABZ6565.0001.001,Yes,['publication place'],['publication place']
+990004672350106381,ABZ6565.0001.001,Yes,['publication place'],[]
 990042350510106381,BBN0289.0001.001,No,[],[]
 990014860610106381,AGH8796.0001.001,No,[],[]
 990010095910106381,AEG8734.0001.001,No,[],[]
@@ -230,7 +230,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990018710390106381,AHZ9263.0001.001,Yes,"['publication place', 'publication date']",[]
 990018711680106381,AHZ9395.0001.001,Yes,['keywords'],[]
 990019375260106381,AJG9045.0001.001,No,[],[]
-990003217900106381,ABJ8999.0001.001,Yes,['keywords'],['keywords']
+990003217900106381,ABJ8999.0001.001,Yes,['keywords'],[]
 990037969520106381,AUJ9393.0001.001,No,[],[]
 990037944470106381,AUJ6881.0001.001,Yes,['author'],[]
 990012613910106381,AFJ6825.0001.001,No,[],[]
@@ -261,12 +261,12 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990018711690106381,AHZ9396.0001.001,Yes,"['author', 'keywords']",['author']
 990018710200106381,AHZ9239.0001.001,Yes,"['author', 'publication place']",['author']
 990043786810106381,AHZ9241.0001.001,Yes,"['author', 'notes']",['author']
-990018710230106381,AHZ9242.0001.001,Yes,"['author', 'publication place']","['author', 'publication place']"
+990018710230106381,AHZ9242.0001.001,Yes,"['author', 'publication place']",['author']
 990018710210106381,AHZ9240.0001.001,Yes,['author'],['author']
 990018710100106381,AHZ9229.0001.001,Yes,"['author', 'notes']","['author', 'notes']"
 990028571280106381,APZ3205.0001.001,Yes,['keywords'],[]
 990027928900106381,APS8626.0001.001,Yes,['keywords'],[]
-990028571290106381,APZ3206.0001.001,Yes,"['publisher', 'keywords']","['publisher', 'keywords']"
+990028571290106381,APZ3206.0001.001,Yes,"['publisher', 'keywords']",['publisher']
 990028571300106381,APZ3207.0001.001,Yes,['keywords'],['publication date']
 990027988530106381,APT4629.0001.001,Yes,"['publication place', 'publisher', 'notes']",['notes']
 990012568430106381,AFJ2187.0001.001,No,[],[]
@@ -277,7 +277,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990010481860106381,AEL9175.0001.001,Yes,"['author', 'keywords']",['keywords']
 990019385600106381,AJH0097.0001.001,No,[],[]
 990012613180106381,AFJ6751.0001.001,Yes,"['author', 'publication place', 'publication date']",[]
-990030841860106381,ARE4475.0001.001,Yes,['keywords'],['keywords']
+990030841860106381,ARE4475.0001.001,Yes,['keywords'],[]
 990002398600106381,ABA5391.0001.001,Yes,"['notes', 'keywords']",['notes']
 990019984250106381,AJP2580.0001.001,No,[],[]
 990010387150106381,AEK9441.0001.001,Yes,['keywords'],['keywords']
@@ -285,7 +285,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990029571550106381,AQP0203.0001.001,No,[],[]
 990008407240106381,ADP7419.0001.001,No,[],[]
 990013949130106381,AFY4779.0001.001,Yes,"['title', 'notes']",['notes']
-990010096000106381,AEG8743.0001.001,Yes,"['notes', 'keywords']",['keywords']
+990010096000106381,AEG8743.0001.001,Yes,"['notes', 'keywords']",[]
 990029551470106381,AQN8187.0001.001,Yes,"['author', 'keywords']",[]
 990029551500106381,AQN8190.0001.001,No,[],[]
 990029551490106381,AQN8189.0001.001,Yes,['keywords'],[]
@@ -315,7 +315,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990037968790106381,AUJ9320.0001.001,Yes,['keywords'],['keywords']
 990028006690106381,APT6458.0001.001,No,[],['publication place']
 990030031430106381,AQW2818.0001.001,Yes,['keywords'],[]
-990012613340106381,AFJ6767.0001.001,Yes,"['publication place', 'publisher']","['publication place', 'publisher']"
+990012613340106381,AFJ6767.0001.001,Yes,"['publication place', 'publisher']",[]
 990018733970106381,AJA1746.0001.001,No,[],[]
 990005760820106381,ACL7345.0001.001,No,[],[]
 990005772450106381,ACL8524.0001.001,Yes,['keywords'],['title']
@@ -379,8 +379,8 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012672820106381,AFK2830.0001.037,Yes,"['title', 'author', 'keywords']","['title', 'author']"
 990016323880106381,AGY9509.0001.001,No,[],[]
 990002398520106381,ABA5383.0001.001,No,[],[]
-990018711700106381,AHZ9397.0001.001,Yes,"['publication place', 'keywords']","['title', 'publication place']"
-990018711700106381,AHZ9397.1913.001,Yes,"['title', 'publication place', 'keywords']","['title', 'publication place']"
+990018711700106381,AHZ9397.0001.001,Yes,"['publication place', 'keywords']",['title']
+990018711700106381,AHZ9397.1913.001,Yes,"['title', 'publication place', 'keywords']",['title']
 990008769790106381,ADT4130.0001.001,No,[],[]
 990020959050106381,AJZ8102.0001.001,No,[],[]
 990021918130106381,AKK9717.0001.001,No,[],[]
@@ -391,7 +391,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990029571850106381,AQP0233.0001.001,Yes,"['author', 'notes']",['notes']
 990029571840106381,AQP0232.0001.001,Yes,['notes'],['notes']
 990030141080106381,AQX3851.0001.313,Yes,"['publication place', 'publisher', 'keywords']",['title']
-990007788520106381,ADH4824.0001.001,Yes,"['author', 'publication place', 'publisher', 'keywords']",['publication place']
+990007788520106381,ADH4824.0001.001,Yes,"['author', 'publication place', 'publisher', 'keywords']",[]
 990027929010106381,APS8637.0001.001,No,[],[]
 990005067630106381,ACD6839.0001.001,Yes,"['publication place', 'publisher', 'publication date', 'notes']",['notes']
 990000526890106381,AAF5135.0001.001,Yes,['keywords'],[]
@@ -417,7 +417,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990014140870106381,AGA4319.0001.001,Yes,['publication place'],[]
 990012613970106381,AFJ6831.0001.001,No,[],[]
 990004658540106381,ABZ5166.0001.001,Yes,"['publisher', 'keywords']",[]
-990018709750106381,AHZ9194.0001.001,Yes,"['author', 'publication place']",['publication place']
+990018709750106381,AHZ9194.0001.001,Yes,"['author', 'publication place']",[]
 990014140880106381,AGA4320.0001.001,Yes,['author'],[]
 990018734120106381,AJA1761.0001.001,No,[],[]
 990008535780106381,ADR0460.0001.001,Yes,['author'],"['title', 'author']"
@@ -447,14 +447,14 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990010854850106381,AEQ7014.0001.001,Yes,['keywords'],[]
 990028611720106381,APZ7278.0001.001,No,[],[]
 990007765540106381,ADH2500.0001.001,No,[],[]
-990000056790106381,AAA6267.0001.001,Yes,"['publication place', 'keywords']","['publication place', 'keywords']"
+990000056790106381,AAA6267.0001.001,Yes,"['publication place', 'keywords']",['keywords']
 990026216130106381,ANW8972.0001.001,Yes,"['publication place', 'publisher']",[]
 990012612770106381,AFJ6709.0001.001,Yes,['author'],['author']
 990005772540106381,ACL8533.0001.001,Yes,['publication place'],[]
 990017534910106381,AHM8975.0001.001,Yes,"['publication place', 'publication date']",[]
 990036082650106381,ATQ0602.0001.001,Yes,['keywords'],[]
 990018548420106381,AHY2547.0001.001,Yes,"['publication place', 'publication date']",[]
-990012858010106381,AFM2298.0001.001,Yes,['keywords'],['keywords']
+990012858010106381,AFM2298.0001.001,Yes,['keywords'],[]
 990028006700106381,APT6459.0001.001,Yes,['notes'],['notes']
 990028006660106381,APT6455.0001.001,Yes,['keywords'],['keywords']
 990029572510106381,AQP0299.0001.001,No,[],[]
@@ -527,7 +527,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990035383110106381,ATG8228.0001.001,Yes,['keywords'],[]
 990001265470106381,AAP0097.0001.001,Yes,['author'],[]
 990027929220106381,APS8658.0001.001,No,[],[]
-990003238770106381,ABK1111.0001.001,Yes,"['author', 'keywords']",['keywords']
+990003238770106381,ABK1111.0001.001,Yes,['keywords'],[]
 990029093490106381,AQJ2111.0001.001,Yes,"['publication place', 'keywords']",[]
 990016352300106381,AGZ2532.0001.056,No,[],['title']
 990014652020106381,AGF7183.0001.001,No,[],[]
@@ -671,7 +671,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012673300106381,AFK2879.0001.001,No,[],[]
 990033126450106381,ASF9826.0001.001,Yes,"['publication place', 'publication date']",[]
 990018709450106381,AHZ9164.0001.001,Yes,['author'],[]
-990012672840106381,AFK2832.0001.001,Yes,"['author', 'publication place']",['publication place']
+990012672840106381,AFK2832.0001.001,Yes,"['author', 'publication place']",[]
 990003955080106381,ABS3729.0001.001,No,[],[]
 990012560160106381,AFJ1354.0001.002,Yes,['keywords'],"['title', 'keywords']"
 990012560160106381,AFJ1354.0001.003,Yes,['keywords'],"['title', 'keywords']"
@@ -737,7 +737,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990000683070106381,AAH0966.1923.010,Yes,"['title', 'publication place', 'publisher', 'keywords']",['title']
 990000683070106381,AAH0966.1923.012,Yes,"['title', 'publication place', 'publisher', 'keywords']",['title']
 990028758930106381,AQB2118.0001.001,No,[],[]
-990018076770106381,AHT4495.0001.001,Yes,"['title', 'author']",['author']
+990018076770106381,AHT4495.0001.001,Yes,"['title', 'author']",[]
 990028697350106381,AQA5916.0001.001,Yes,"['notes', 'keywords']",['keywords']
 990012547780106381,AFJ0093.0001.001,No,[],[]
 990010851770106381,AEQ6702.0001.001,Yes,['keywords'],[]
@@ -756,7 +756,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012886550106381,AFM5339.0001.001,No,[],[]
 990018709780106381,AHZ9197.0001.001,No,[],[]
 990014472720106381,AGD8621.0001.001,Yes,['author'],[]
-990018734430106381,AJA1794.0001.001,Yes,"['publication place', 'publication date', 'keywords']",['keywords']
+990018734430106381,AJA1794.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990014473690106381,AGD8720.0001.001,Yes,['keywords'],[]
 990028993970106381,AQH2073.0001.001,No,[],[]
 990028993940106381,AQH2070.0001.001,No,[],[]
@@ -769,7 +769,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990021741190106381,AKJ1305.0001.001,Yes,['notes'],['notes']
 990011586420106381,AEY2669.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990012673050106381,AFK2853.0001.001,Yes,"['author', 'publication place']",[]
-990020526130106381,AJV0736.0002.001,Yes,"['author', 'publication place']","['title', 'publication place']"
+990020526130106381,AJV0736.0002.001,Yes,"['author', 'publication place']",['title']
 990002383570106381,ABA3864.0001.001,No,[],['author']
 990029619680106381,AQP5054.0001.001,No,[],[]
 990029150510106381,AQJ7883.0001.001,Yes,['keywords'],[]
@@ -873,7 +873,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990029061150106381,AQH8845.0001.001,Yes,['keywords'],[]
 990029333380106381,AQL6286.0001.001,No,[],[]
 990012567830106381,AFJ2127.0001.001,No,[],[]
-990030031370106381,AQW2812.0001.001,Yes,['keywords'],['keywords']
+990030031370106381,AQW2812.0001.001,Yes,['keywords'],[]
 990008505670106381,ADQ7399.0001.001,Yes,['keywords'],[]
 990018810620106381,AJA9813.0001.001,Yes,['author'],[]
 990005420710106381,ACH2829.1906.003,Yes,"['title', 'publication place', 'publisher']",['title']
@@ -895,7 +895,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990029048320106381,AQH7551.0001.001,Yes,['keywords'],[]
 990014476970106381,AGD9059.0001.001,Yes,['language'],[]
 990018712580106381,AHZ9486.0001.001,No,[],[]
-990018290850106381,AHV6174.0001.001,Yes,"['publication place', 'publisher', 'keywords']",['keywords']
+990018290850106381,AHV6174.0001.001,Yes,"['publication place', 'publisher', 'keywords']",[]
 990024443620106381,ALS0870.0001.001,Yes,"['publication place', 'publisher', 'notes', 'keywords']",['notes']
 990010382470106381,AEK8963.0001.001,No,[],[]
 990008773600106381,ADT4513.0001.001,No,[],[]
@@ -936,7 +936,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990030126750106381,AQX2411.0004.009,Yes,['keywords'],['title']
 990030126750106381,AQX2411.0004.SPI,Yes,['keywords'],['title']
 990012672810106381,AFK2829.0001.001,No,[],[]
-990030353640106381,AQZ5298.0001.001,Yes,['keywords'],['keywords']
+990030353640106381,AQZ5298.0001.001,Yes,['keywords'],[]
 990003956900106381,ABS3923.0001.001,No,[],[]
 990018183540106381,AHU5327.0001.001,No,[],['author']
 990022070020106381,AKM6701.0001.001,Yes,"['publication place', 'publication date']",['author']
@@ -998,12 +998,12 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990002221230106381,AAY7391.0001.001,No,[],[]
 990012612880106381,AFJ6721.0001.001,No,[],[]
 990000594560106381,AAG1993.0001.001,Yes,"['publication place', 'publisher', 'publication date', 'notes']",['notes']
-990003210990106381,ABJ8305.0001.001,Yes,"['publication place', 'publisher']","['publication place', 'publisher']"
+990003210990106381,ABJ8305.0001.001,Yes,"['publication place', 'publisher']",[]
 990012613810106381,AFJ6814.0001.001,Yes,['keywords'],[]
 990005376720106381,ACG8363.0001.001,No,[],[]
 990011031200106381,AES4862.0001.001,Yes,['keywords'],[]
 990012680990106381,AFK3682.0001.001,Yes,['author'],[]
-990010095420106381,AEG8685.0001.001,Yes,['keywords'],['keywords']
+990010095420106381,AEG8685.0001.001,Yes,['keywords'],[]
 990030272230106381,AQY7077.0001.001,Yes,['keywords'],[]
 990027810030106381,APN9366.0001.001,No,[],[]
 990008769810106381,ADT4132.0001.001,No,[],[]
@@ -1085,11 +1085,11 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990002792060106381,ABE5581.0001.001,No,[],[]
 990028007020106381,APT6493.0001.001,No,[],[]
 990027988580106381,APT4634.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
-990004672590106381,ABZ6590.0001.001,Yes,['publication place'],['publication place']
+990004672590106381,ABZ6590.0001.001,Yes,['publication place'],[]
 990000614980106381,AAG4066.1898.001,Yes,"['title', 'publication place', 'publisher', 'notes']","['title', 'notes']"
 990000614980106381,AAG4066.1898.002,Yes,"['title', 'publication place', 'publisher', 'notes']","['title', 'notes']"
 990012569970106381,AFJ2343.0001.001,Yes,['keywords'],[]
-990011581880106381,AEY2206.0001.001,Yes,"['publication place', 'publisher', 'keywords']","['publication place', 'keywords']"
+990011581880106381,AEY2206.0001.001,Yes,"['publication place', 'publisher', 'keywords']",['keywords']
 990012569980106381,AFJ2344.0001.001,No,[],[]
 990004353540106381,ABW4229.0001.001,No,[],[]
 990025460180106381,ANF7363.0001.001,Yes,['keywords'],[]
@@ -1123,7 +1123,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990014306150106381,AGC1727.0001.001,Yes,"['author', 'keywords']",['keywords']
 990017362710106381,AHL0583.0001.001,Yes,"['publication place', 'publication date']",[]
 990020098970106381,AJQ4688.0001.001,Yes,['author'],[]
-990017555270106381,AHN1084.0001.001,Yes,"['author', 'keywords']",['keywords']
+990017555270106381,AHN1084.0001.001,Yes,"['author', 'keywords']",[]
 990000454940106381,AAE7861.1886.001,Yes,"['title', 'publication place', 'notes']","['title', 'notes']"
 990000454940106381,AAE7861.1888.001,Yes,"['title', 'publication place', 'notes']","['title', 'notes']"
 990000454940106381,AAE7861.1888.002,Yes,"['title', 'publication place', 'notes']","['title', 'notes']"
@@ -1314,13 +1314,13 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990017187980106381,AHJ2469.0001.001,No,[],['title']
 990017187980106381,AHJ2469.0002.001,No,[],['title']
 990014009420106381,AFZ1024.0001.001,No,[],[]
-990014906630106381,AGJ3546.0001.001,Yes,['publication place'],['publication place']
+990014906630106381,AGJ3546.0001.001,Yes,['publication place'],[]
 990002793340106381,ABE5709.0001.001,No,[],[]
 990012569620106381,AFJ2306.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990014012530106381,AFZ1341.0001.001,Yes,['author'],"['title', 'author']"
 990014012530106381,AFZ1341.0002.001,Yes,['author'],"['title', 'author']"
 990019727410106381,AJL5042.0001.001,Yes,['keywords'],[]
-990011031400106381,AES4882.0001.001,Yes,['keywords'],['keywords']
+990011031400106381,AES4882.0001.001,Yes,['keywords'],[]
 990035609580106381,ATK1577.0001.001,No,[],[]
 990007765550106381,ADH2501.0001.001,No,[],[]
 990008775720106381,ADT4730.0001.001,Yes,"['author', 'keywords']",['author']
@@ -1345,19 +1345,19 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990029060970106381,AQH8827.0001.001,No,[],[]
 990029516300106381,AQN4643.0001.001,No,[],[]
 990029028790106381,AQH5590.0001.001,No,[],[]
-990018143470106381,AHU1241.0001.001,Yes,['keywords'],['keywords']
+990018143470106381,AHU1241.0001.001,Yes,['keywords'],[]
 990014885250106381,AGJ1348.0001.001,No,[],[]
 990018548580106381,AHY2563.0001.001,Yes,['keywords'],[]
 990002785210106381,ABE4884.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990018711490106381,AHZ9375.0001.001,No,[],[]
-990003336240106381,ABL0964.0001.001,Yes,['publication place'],['publication place']
+990003336240106381,ABL0964.0001.001,Yes,['publication place'],[]
 990007766140106381,ADH2561.0001.001,No,[],[]
 990008176280106381,ADM3963.0001.001,Yes,"['author', 'keywords']",[]
 990028051400106381,APU0956.0001.001,Yes,['notes'],['notes']
 990009420320106381,AEA0032.0001.001,Yes,['author'],[]
 990000538250106381,AAF6285.0001.001,Yes,"['publication place', 'publisher']",['title']
 990000538250106381,AAF6285.0001.002,Yes,"['publication place', 'publisher']",['title']
-990018734540106381,AJA1806.0001.001,Yes,['keywords'],['keywords']
+990018734540106381,AJA1806.0001.001,Yes,['keywords'],[]
 990007802980106381,ADH6285.0001.001,No,[],[]
 990012681050106381,AFK3688.0001.001,Yes,['author'],[]
 990006245130106381,ACR6473.0001.001,Yes,"['author', 'keywords']",['author']
@@ -1406,8 +1406,8 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990005446290106381,ACH5411.0009.002,Yes,"['publication place', 'publisher']",['title']
 990005446290106381,ACH5411.0009.003,Yes,"['publication place', 'publisher']",['title']
 990005446290106381,ACH5411.0009.004,Yes,"['publication place', 'publisher']",['title']
-990002804070106381,ABE6791.0002.001,Yes,['keywords'],"['title', 'keywords']"
-990002804070106381,ABE6791.0001.001,Yes,"['title', 'keywords']","['title', 'keywords']"
+990002804070106381,ABE6791.0002.001,Yes,['keywords'],['title']
+990002804070106381,ABE6791.0001.001,Yes,"['title', 'keywords']",['title']
 990035602750106381,ATK0891.0001.001,No,[],[]
 990029571830106381,AQP0231.0001.001,No,[],[]
 990011515820106381,AEX5410.0001.001,Yes,['keywords'],['keywords']
@@ -1598,9 +1598,9 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990029357330106381,AQL8700.0001.001,No,[],[]
 990018170950106381,AHU4052.0001.001,Yes,['publication place'],[]
 990012710570106381,AFK6700.0001.001,Yes,['keywords'],['keywords']
-990003213660106381,ABJ8574.0001.001,Yes,['publication place'],['publication place']
+990003213660106381,ABJ8574.0001.001,Yes,['publication place'],[]
 990030017940106381,AQW1458.0001.001,No,[],[]
-990004750320106381,ACA4533.0001.001,Yes,"['publication place', 'keywords']",['publication place']
+990004750320106381,ACA4533.0001.001,Yes,"['publication place', 'keywords']",[]
 990014140900106381,AGA4322.0001.001,No,[],[]
 990002118620106381,AAX6820.0001.001,No,[],[]
 990016757690106381,AHD7618.0000.001,No,[],[]
@@ -1625,55 +1625,55 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990000323440106381,AAD4285.0001.001,Yes,"['publication place', 'publication date']",[]
 990004832000106381,ACB2794.0001.001,No,[],[]
 990017534960106381,AHM8980.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
-990012568120106381,AFJ2156.0001.001,Yes,"['publication place', 'notes']",['publication place']
+990012568120106381,AFJ2156.0001.001,Yes,"['publication place', 'notes']",[]
 990018709990106381,AHZ9218.0001.001,Yes,"['publication place', 'publication date']",[]
-990015419300106381,AGP6085.0001.001,Yes,['publication place'],['publication place']
+990015419300106381,AGP6085.0001.001,Yes,['publication place'],[]
 990038001460106381,AUK2595.0001.001,No,[],[]
 990027041550106381,APF1974.0001.001,Yes,"['publication place', 'publisher', 'keywords']",['keywords']
 990005774630106381,ACL8746.0001.001,No,[],[]
 990015459810106381,AGQ0161.0001.001,No,[],[]
 990005774750106381,ACL8758.0001.001,No,[],[]
-990011705990106381,AEZ4803.0001.001,Yes,['keywords'],"['title', 'keywords']"
-990011705990106381,AEZ4803.0001.002,Yes,['keywords'],"['title', 'keywords']"
-990000077660106381,AAA8537.0001.001,Yes,"['author', 'notes', 'keywords']",['keywords']
+990011705990106381,AEZ4803.0001.001,Yes,['keywords'],['title']
+990011705990106381,AEZ4803.0001.002,Yes,['keywords'],['title']
+990000077660106381,AAA8537.0001.001,Yes,"['author', 'notes', 'keywords']",[]
 990017630280106381,AHN8919.0001.001,No,[],[]
 990011708740106381,AEZ5081.0001.001,No,[],[]
 990011706060106381,AEZ4810.0001.001,Yes,['keywords'],[]
 990018204710106381,AHU7465.0001.001,Yes,['keywords'],[]
 990025811540106381,ANS7971.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
 990012612630106381,AFJ6695.0001.001,No,[],[]
-990000679510106381,AAH0606.0001.001,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.034,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.035,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.036,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.037,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.038,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.039,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.040,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.041,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.042,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.043,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.044,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.045,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.046,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.047,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.048,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.049,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.050,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.052,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.053,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.054,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.055,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.056,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.057,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.058,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.059,Yes,"['publication place', 'publisher', 'keywords']","['title', 'keywords']"
-990000679510106381,AAH0606.0001.051,Yes,"['title', 'publication place', 'publisher', 'keywords']","['title', 'keywords']"
+990000679510106381,AAH0606.0001.001,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.034,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.035,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.036,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.037,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.038,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.039,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.040,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.041,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.042,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.043,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.044,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.045,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.046,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.047,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.048,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.049,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.050,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.052,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.053,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.054,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.055,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.056,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.057,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.058,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.059,Yes,"['publication place', 'publisher', 'keywords']",['title']
+990000679510106381,AAH0606.0001.051,Yes,"['title', 'publication place', 'publisher', 'keywords']",['title']
 990001648810106381,AAS9064.0001.001,No,[],[]
 990028658760106381,AQA2025.0001.001,Yes,"['author', 'notes', 'keywords']","['author', 'notes']"
 990015192480106381,AGM3039.0001.001,Yes,['author'],[]
 990018711910106381,AHZ9418.1927.001,Yes,"['title', 'keywords']",['title']
-990004657600106381,ABZ5072.0001.001,Yes,['publication place'],['publication place']
+990004657600106381,ABZ5072.0001.001,Yes,['publication place'],[]
 990012612680106381,AFJ6700.0001.001,No,[],[]
 990018734010106381,AJA1750.0001.001,No,[],[]
 990035693100106381,ATK9961.0001.001,No,[],[]
@@ -1695,7 +1695,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990013524980106381,AFU0944.0001.001,No,[],[]
 990011586340106381,AEY2661.0001.001,Yes,['keywords'],[]
 990003132580106381,ABJ0362.0001.001,No,[],[]
-990002462140106381,ABB1821.0001.001,Yes,['keywords'],['keywords']
+990002462140106381,ABB1821.0001.001,Yes,['keywords'],[]
 990003969390106381,ABS5202.0001.001,No,[],[]
 990012612980106381,AFJ6731.0001.001,Yes,"['publication place', 'publication date']",[]
 990033416130106381,ASJ8998.0001.001,Yes,"['author', 'notes']",['notes']
@@ -1777,9 +1777,9 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990019726730106381,AJL4971.0001.001,Yes,['author'],[]
 990029028780106381,AQH5589.0001.001,No,[],[]
 990029373950106381,AQM0382.0001.001,Yes,['keywords'],['keywords']
-990029028890106381,AQH5600.0001.001,Yes,"['title', 'keywords']",['keywords']
+990029028890106381,AQH5600.0001.001,Yes,"['title', 'keywords']",[]
 990014479290106381,AGD9300.0001.001,Yes,['keywords'],['keywords']
-990006911300106381,ACY4253.0001.001,Yes,"['publication place', 'keywords']",['publication place']
+990006911300106381,ACY4253.0001.001,Yes,"['publication place', 'keywords']",[]
 990029358120106381,AQL8779.0001.001,Yes,['keywords'],['keywords']
 990026981790106381,APE5934.0001.001,Yes,['keywords'],[]
 990027908260106381,APS6551.0001.001,Yes,['notes'],['notes']
@@ -1819,7 +1819,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990022455350106381,AKR6824.0001.001,Yes,"['title', 'author', 'publication place', 'publisher', 'publication date', 'notes', 'keywords']",[]
 990001890090106381,AAV3716.0001.001,No,[],[]
 990008777180106381,ADT4878.0001.001,No,[],[]
-990002491410106381,ABB4779.0001.001,Yes,"['publication place', 'keywords']",['publication place']
+990002491410106381,ABB4779.0001.001,Yes,"['publication place', 'keywords']",[]
 990042336440106381,BBM8816.0001.001,No,[],[]
 990012567990106381,AFJ2143.0001.001,Yes,['author'],[]
 990033430280106381,ASK0427.0001.001,Yes,"['author', 'keywords']",['keywords']
@@ -1865,8 +1865,8 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990002780690106381,ABE4425.0001.001,Yes,['keywords'],['keywords']
 990008774800106381,ADT4634.0001.001,Yes,['keywords'],[]
 990004302960106381,ABV9098.0001.001,Yes,['keywords'],[]
-990018710530106381,AHZ9277.0001.001,Yes,"['publication place', 'publisher', 'publication date']","['title', 'publication place']"
-990018710530106381,AHZ9277.0002.001,Yes,"['publication place', 'publisher', 'publication date']","['title', 'publication place']"
+990018710530106381,AHZ9277.0001.001,Yes,"['publication place', 'publisher', 'publication date']",['title']
+990018710530106381,AHZ9277.0002.001,Yes,"['publication place', 'publisher', 'publication date']",['title']
 990028094200106381,APU5268.0001.001,Yes,['keywords'],['keywords']
 990018711600106381,AHZ9387.0001.001,No,[],[]
 990018699470106381,AHZ8125.0001.001,Yes,"['author', 'keywords']",['keywords']
@@ -1923,7 +1923,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990011031230106381,AES4865.0001.001,No,[],[]
 990010095880106381,AEG8731.0001.001,Yes,['keywords'],[]
 990029720790106381,AQQ5239.0001.001,Yes,"['publication place', 'publisher', 'keywords']",[]
-990029130840106381,AQJ5903.0001.001,Yes,"['author', 'keywords']","['author', 'keywords']"
+990029130840106381,AQJ5903.0001.001,Yes,"['author', 'keywords']",['author']
 990029151090106381,AQJ7942.0001.001,Yes,['keywords'],[]
 990016307520106381,AGY7004.0001.001,No,[],[]
 990002744720106381,ABE0788.0001.001,Yes,"['publication place', 'keywords']",['keywords']
@@ -2002,7 +2002,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990028697200106381,AQA5900.0002.001,Yes,['notes'],"['title', 'notes']"
 990002031150106381,AAW7952.0001.001,Yes,"['publication place', 'keywords']",[]
 990002594890106381,ABC5519.0001.001,Yes,['keywords'],['keywords']
-990019316350106381,AJG3032.0001.001,Yes,['keywords'],['keywords']
+990019316350106381,AJG3032.0001.001,Yes,['keywords'],[]
 990007799860106381,ADH5969.0001.001,No,[],[]
 990017343940106381,AHK8501.0001.001,No,[],[]
 990012570140106381,AFJ2360.0001.001,Yes,['keywords'],[]
@@ -2022,7 +2022,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990020578940106381,AJV6094.0001.001,No,[],[]
 990012681070106381,AFK3690.0001.001,Yes,['keywords'],[]
 990007766170106381,ADH2564.0001.001,Yes,"['publication place', 'keywords']",['keywords']
-990019026350106381,AJD2885.0001.001,Yes,['keywords'],['keywords']
+990019026350106381,AJD2885.0001.001,Yes,['keywords'],[]
 990016111190106381,AGW6879.0001.001,Yes,['keywords'],['keywords']
 990018928070106381,AJC2722.0001.001,Yes,['notes'],['notes']
 990012205430106381,AFE5412.0001.001,Yes,"['author', 'keywords']",['author']
@@ -2851,7 +2851,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990004969060106381,ACC6740.1913.001,Yes,"['title', 'author', 'notes']","['title', 'notes']"
 990017420370106381,AHL6699.0001.001,Yes,['author'],[]
 990042350440106381,BBN0282.0001.001,No,[],[]
-990042336030106381,BBM8775.0001.001,Yes,"['title', 'author']",['title']
+990042336030106381,BBM8775.0001.001,Yes,"['title', 'author']",[]
 990018711120106381,AHZ9338.0001.001,Yes,['keywords'],[]
 990000102770106381,AAB1246.0001.001,Yes,['keywords'],['publication place']
 990033430300106381,ASK0429.0001.001,Yes,['keywords'],[]
@@ -2908,8 +2908,8 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990030046610106381,AQW4347.0001.001,Yes,['keywords'],['keywords']
 990033436200106381,ASK1025.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990028005230106381,APT6312.0001.001,Yes,['keywords'],[]
-990030097600106381,AQW9481.0001.001,Yes,"['author', 'keywords']",['author']
-990030046620106381,AQW4348.0001.001,Yes,"['author', 'keywords']",['author']
+990030097600106381,AQW9481.0001.001,Yes,"['author', 'keywords']",[]
+990030046620106381,AQW4348.0001.001,Yes,"['author', 'keywords']",[]
 990017534950106381,AHM8979.0001.001,Yes,['author'],[]
 990017343890106381,AHK8496.0001.001,Yes,['author'],[]
 990000601460106381,AAG2698.0001.001,Yes,"['author', 'notes', 'keywords']","['title', 'notes']"
@@ -2955,7 +2955,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990014885420106381,AGJ1365.0001.001,No,[],[]
 990014885200106381,AGJ1343.0001.001,No,[],[]
 990014859490106381,AGH8680.0001.001,No,[],[]
-990014859950106381,AGH8728.0001.001,Yes,['keywords'],['keywords']
+990014859950106381,AGH8728.0001.001,Yes,['keywords'],[]
 990014859960106381,AGH8729.0001.001,No,[],[]
 990005053440106381,ACD5391.1901.001,Yes,"['title', 'publication place', 'publisher']",['title']
 990005053440106381,ACD5391.1903.001,Yes,"['title', 'publication place', 'publisher']",['title']
@@ -3270,7 +3270,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990028697380106381,AQA5919.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
 990028611730106381,APZ7279.0001.001,No,[],[]
 990017534760106381,AHM8960.0001.001,Yes,['keywords'],[]
-990005649370106381,ACK6070.0001.001,Yes,['keywords'],['keywords']
+990005649370106381,ACK6070.0001.001,Yes,['keywords'],[]
 990012571040106381,AFJ2450.0001.001,No,[],[]
 990012764470106381,AFL2225.0001.001,Yes,"['author', 'publication place', 'keywords']",['keywords']
 990030066750106381,AQW6372.1928.001,Yes,['title'],['title']
@@ -3295,7 +3295,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990019110450106381,AJE1530.0001.001,No,[],['title']
 990019110450106381,AJE1530.0002.001,No,[],['title']
 990004665600106381,ABZ5882.0001.001,Yes,"['publication place', 'keywords']",[]
-990018709900106381,AHZ9209.0001.001,Yes,"['publication place', 'keywords']","['publication place', 'keywords']"
+990018709900106381,AHZ9209.0001.001,Yes,"['publication place', 'keywords']",[]
 990019421730106381,AJH3760.0001.001,No,[],[]
 990018797440106381,AJA8449.0001.001,Yes,['author'],[]
 990009771800106381,AED6049.0001.001,Yes,['keywords'],[]
@@ -3312,9 +3312,9 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012568010106381,AFJ2145.0001.001,No,[],[]
 990020579080106381,AJV6109.0001.001,No,[],[]
 990004385730106381,ABW7511.0001.001,No,[],[]
-990029670670106381,AQQ0191.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
+990029670670106381,AQQ0191.0001.001,Yes,"['notes', 'keywords']",['notes']
 990018710810106381,AHZ9306.0001.001,No,[],[]
-990029670680106381,AQQ0192.0001.001,Yes,['keywords'],['keywords']
+990029670680106381,AQQ0192.0001.001,Yes,['keywords'],[]
 990012568300106381,AFJ2174.0001.001,No,[],[]
 990004665610106381,ABZ5883.0001.001,Yes,"['author', 'keywords']",[]
 990033426540106381,ASK0053.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
@@ -3427,12 +3427,12 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990002865660106381,ABF2996.0001.001,No,[],[]
 990012569290106381,AFJ2273.0001.001,No,[],[]
 990012567780106381,AFJ2122.0001.001,No,[],[]
-990029027800106381,AQH5491.0001.001,Yes,['keywords'],"['title', 'keywords']"
-990029027800106381,AQH5491.0002.001,Yes,['keywords'],"['title', 'keywords']"
+990029027800106381,AQH5491.0001.001,Yes,['keywords'],['title']
+990029027800106381,AQH5491.0002.001,Yes,['keywords'],['title']
 990014533290106381,AGE4840.0001.001,No,[],[]
 990029048410106381,AQH7560.0001.001,No,[],[]
 990018734020106381,AJA1751.0001.001,Yes,"['publication place', 'publication date']",[]
-990004714250106381,ACA0825.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
+990004714250106381,ACA0825.0001.001,Yes,"['notes', 'keywords']",['notes']
 990014886180106381,AGJ1444.0001.001,No,[],[]
 990008800140106381,ADT7213.0001.001,No,[],[]
 990020960610106381,AJZ8258.0001.001,No,[],[]
@@ -3525,7 +3525,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990031995690106381,ARS2509.0001.001,Yes,['author'],[]
 990031995700106381,ARS2510.0001.001,Yes,['author'],[]
 990027928960106381,APS8632.0001.001,No,[],[]
-990002794560106381,ABE5832.0001.001,Yes,['publication place'],['publication place']
+990002794560106381,ABE5832.0001.001,Yes,['publication place'],[]
 990012321520106381,AFF7163.0001.001,Yes,['keywords'],[]
 990042336060106381,BBM8778.0001.001,No,[],[]
 990028994060106381,AQH2082.0001.001,Yes,['keywords'],[]
@@ -3568,7 +3568,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990014992080106381,AGK2408.0002.005,Yes,"['title', 'author', 'publication date']","['title', 'author']"
 990005774440106381,ACL8726.0001.001,No,[],[]
 990001852000106381,AAU9867.0001.001,Yes,['keywords'],[]
-990018711340106381,AHZ9360.0001.001,Yes,"['author', 'publication place', 'keywords']",['publication place']
+990018711340106381,AHZ9360.0001.001,Yes,"['author', 'publication place', 'keywords']",[]
 990024364910106381,ALR2894.0001.001,No,[],[]
 990018698370106381,AHZ8008.0001.001,Yes,['keywords'],['keywords']
 990003210960106381,ABJ8302.0001.001,Yes,['author'],[]
@@ -3601,10 +3601,10 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990008774880106381,ADT4643.0001.001,Yes,['keywords'],['keywords']
 990029703710106381,AQQ3520.0001.001,Yes,['keywords'],['keywords']
 990017552180106381,AHN0765.0001.001,Yes,"['author', 'notes', 'keywords']",[]
-990011518550106381,AEX5684.0001.001,Yes,"['author', 'notes', 'keywords']","['notes', 'keywords']"
-990016357140106381,AGZ3030.0001.001,Yes,['keywords'],"['title', 'keywords']"
-990016357140106381,AGZ3030.0002.001,Yes,['keywords'],"['title', 'keywords']"
-990016357140106381,AGZ3030.0003.001,Yes,['keywords'],"['title', 'keywords']"
+990011518550106381,AEX5684.0001.001,Yes,"['author', 'notes', 'keywords']",['notes']
+990016357140106381,AGZ3030.0001.001,Yes,['keywords'],['title']
+990016357140106381,AGZ3030.0002.001,Yes,['keywords'],['title']
+990016357140106381,AGZ3030.0003.001,Yes,['keywords'],['title']
 990008500570106381,ADQ6885.0001.001,Yes,"['notes', 'keywords']","['notes', 'keywords']"
 990008771800106381,ADT4332.0001.001,Yes,['keywords'],[]
 990001590210106381,AAS3144.0001.001,No,[],[]
@@ -3620,7 +3620,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990004473940106381,ABX6442.0001.001,Yes,['keywords'],[]
 990030106030106381,AQX0329.0001.001,No,[],[]
 990012569500106381,AFJ2294.0001.001,Yes,"['notes', 'keywords']",['notes']
-990020106370106381,AJQ5473.0001.001,Yes,"['publication place', 'publisher', 'notes']","['publication place', 'publisher', 'notes']"
+990020106370106381,AJQ5473.0001.001,Yes,"['publication place', 'publisher', 'notes']",['notes']
 990027929230106381,APS8659.0001.001,Yes,['keywords'],[]
 990010141660106381,AEH3478.0001.001,Yes,['author'],['author']
 990016352000106381,AGZ2502.0001.001,Yes,"['title', 'notes']",[]
@@ -3638,7 +3638,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990016352100106381,AGZ2512.0001.001,No,[],[]
 990005400630106381,ACH0795.0001.001,Yes,['keywords'],[]
 990015029110106381,AGK6193.0001.001,Yes,['keywords'],[]
-990012570250106381,AFJ2371.0001.001,Yes,"['publication place', 'keywords']","['publication place', 'keywords']"
+990012570250106381,AFJ2371.0001.001,Yes,"['publication place', 'keywords']",['keywords']
 990006312730106381,ACS3343.0001.001,Yes,['keywords'],[]
 990042336380106381,BBM8810.0001.001,Yes,['keywords'],[]
 990012673390106381,AFK2888.0001.001,Yes,['keywords'],[]
@@ -3658,10 +3658,10 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990000587560106381,AAG1286.0006.001,Yes,"['publication place', 'publisher', 'publication date', 'notes', 'keywords']","['title', 'notes']"
 990000587560106381,AAG1286.0008.001,Yes,"['publication place', 'publisher', 'publication date', 'notes', 'keywords']","['title', 'notes']"
 990000587560106381,AAG1286.0009.001,Yes,"['publication place', 'publisher', 'publication date', 'notes', 'keywords']","['title', 'notes']"
-990003211650106381,ABJ8372.0001.001,Yes,"['publication place', 'publisher']","['publication place', 'publisher']"
+990003211650106381,ABJ8372.0001.001,Yes,"['publication place', 'publisher']",[]
 990008783890106381,ADT5558.0001.001,Yes,['keywords'],[]
 990008783850106381,ADT5554.0001.001,Yes,['keywords'],[]
-990012908780106381,AFM7588.0001.001,Yes,['keywords'],['keywords']
+990012908780106381,AFM7588.0001.001,Yes,['keywords'],[]
 990012754910106381,AFL1250.0001.001,Yes,['keywords'],['keywords']
 990036082660106381,ATQ0603.0001.001,No,[],[]
 990007766030106381,ADH2550.0001.001,Yes,['keywords'],[]
@@ -3701,14 +3701,14 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990011601670106381,AEY4217.0006.001,No,[],['title']
 990005565720106381,ACJ7583.0001.001,No,[],[]
 990026149310106381,ANW2227.0001.001,No,[],[]
-990012771490106381,AFL2935.0001.001,Yes,['publication place'],['publication place']
+990012771490106381,AFL2935.0001.001,Yes,['publication place'],[]
 990012771500106381,AFL2936.0001.001,No,[],[]
 990012771510106381,AFL2937.0001.001,No,[],[]
 990017642150106381,AHP0146.0001.001,Yes,"['publication place', 'publication date', 'notes', 'keywords']",['notes']
 990018734060106381,AJA1755.0001.001,No,[],['author']
 990014143000106381,AGA4532.0001.001,No,[],[]
 990031873860106381,ARR0231.0001.001,Yes,['keywords'],['keywords']
-990027929110106381,APS8647.0001.001,Yes,['keywords'],['keywords']
+990027929110106381,APS8647.0001.001,Yes,['keywords'],[]
 990018254320106381,AHV2476.0001.001,No,[],[]
 990033435850106381,ASK0990.0001.001,Yes,"['publication place', 'publication date', 'keywords']",['keywords']
 990028051550106381,APU0971.0001.001,No,[],[]
@@ -3740,9 +3740,9 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990021902240106381,AKK7851.0001.001,No,[],[]
 990005672720106381,ACK8437.0001.001,No,[],[]
 990028052160106381,APU1032.0001.001,No,[],[]
-990006643330106381,ACV6914.0001.001,Yes,['publication place'],['publication place']
-990006643290106381,ACV6910.0001.001,Yes,['publication place'],"['title', 'publication place']"
-990006643290106381,ACV6910.0001.002,Yes,['publication place'],"['title', 'publication place']"
+990006643330106381,ACV6914.0001.001,Yes,['publication place'],[]
+990006643290106381,ACV6910.0001.001,Yes,['publication place'],['title']
+990006643290106381,ACV6910.0001.002,Yes,['publication place'],['title']
 990012613870106381,AFJ6820.0001.001,Yes,['keywords'],[]
 990007838580106381,ADH9887.0001.001,No,[],[]
 990035638210106381,ATK4452.0001.001,No,[],[]
@@ -3764,7 +3764,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990008894820106381,ADU6798.1929.001,Yes,"['title', 'publication place', 'publisher']",['title']
 990016234740106381,AGX9506.0001.001,Yes,['notes'],['notes']
 990016234750106381,AGX9507.0001.001,No,[],[]
-990012993760106381,AFN6172.0001.001,Yes,['keywords'],['keywords']
+990012993760106381,AFN6172.0001.001,Yes,['keywords'],[]
 990006767840106381,ACW9526.0001.001,Yes,"['author', 'publication place', 'notes', 'keywords']","['title', 'notes']"
 990006767840106381,ACW9526.0022.001,Yes,"['author', 'publication place', 'notes', 'keywords']","['title', 'notes']"
 990006425880106381,ACT4865.1921.001,Yes,"['title', 'author', 'publication place']",['title']
@@ -3866,7 +3866,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012681090106381,AFK3692.0001.001,Yes,['author'],[]
 990012673410106381,AFK2890.0001.001,Yes,"['author', 'keywords']",[]
 990012673480106381,AFK2897.0001.001,Yes,['author'],[]
-990017534800106381,AHM8964.0001.001,Yes,['author'],['author']
+990017534800106381,AHM8964.0001.001,Yes,['author'],[]
 990018711480106381,AHZ9374.0001.001,Yes,"['author', 'keywords']",[]
 990012673400106381,AFK2889.0001.001,Yes,"['author', 'keywords']",[]
 990017500650106381,AHM5482.0001.001,Yes,"['title', 'author', 'keywords']",['keywords']
@@ -3874,15 +3874,15 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990018734450106381,AJA1796.0001.001,Yes,['author'],[]
 990011580510106381,AEY2063.0001.001,Yes,['author'],[]
 990012570260106381,AFJ2372.0001.001,Yes,"['author', 'keywords']",[]
-990030126080106381,AQX2344.0001.001,Yes,"['author', 'keywords']","['author', 'keywords']"
-990005667120106381,ACK7872.0001.001,Yes,['author'],['author']
+990030126080106381,AQX2344.0001.001,Yes,"['author', 'keywords']",['keywords']
+990005667120106381,ACK7872.0001.001,Yes,['author'],[]
 990011228610106381,AEU5489.0001.001,Yes,"['author', 'keywords']",['keywords']
 990002781640106381,ABE4521.0001.001,Yes,"['author', 'publication place', 'publication date']",[]
 990006592060106381,ACV1716.0001.001,Yes,"['author', 'keywords']",[]
 990003146990106381,ABJ1816.0001.001,Yes,['author'],[]
 990021365170106381,AKE2396.0001.001,Yes,['author'],[]
-990011515880106381,AEX5416.0001.001,Yes,"['author', 'keywords']","['author', 'keywords']"
-990002804060106381,ABE6790.0001.001,Yes,['author'],['author']
+990011515880106381,AEX5416.0001.001,Yes,"['author', 'keywords']",['keywords']
+990002804060106381,ABE6790.0001.001,Yes,['author'],[]
 990017195190106381,AHJ3222.1928.001,Yes,['title'],['title']
 990017195190106381,AHJ3222.1929.001,Yes,['title'],['title']
 990017195190106381,AHJ3222.1930.001,Yes,['title'],['title']
@@ -4056,7 +4056,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990030000690106381,AQV9717.0001.001,Yes,['keywords'],['keywords']
 990028052170106381,APU1033.0001.001,Yes,['keywords'],['keywords']
 990004831840106381,ACB2778.0001.001,Yes,['keywords'],[]
-990029061820106381,AQH8913.0001.001,Yes,['keywords'],['keywords']
+990029061820106381,AQH8913.0001.001,Yes,['keywords'],[]
 990008777030106381,ADT4863.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990007765640106381,ADH2510.0001.001,No,[],[]
 990016352230106381,AGZ2525.0001.049,No,[],['title']
@@ -4098,7 +4098,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990019366080106381,AJG8108.0001.001,Yes,"['publication place', 'publication date']",[]
 990012570310106381,AFJ2377.0001.001,Yes,['publication place'],[]
 990005774830106381,ACL8766.0001.001,No,[],[]
-990016352070106381,AGZ2509.0001.030,Yes,"['author', 'keywords']","['title', 'keywords']"
+990016352070106381,AGZ2509.0001.030,Yes,"['author', 'keywords']",['title']
 990007226240106381,ADB6859.0001.001,Yes,['keywords'],[]
 990020916730106381,AJZ3519.0001.001,No,[],[]
 990018811420106381,AJA9897.0001.001,Yes,['publication place'],[]
@@ -4106,7 +4106,7 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990012771550106381,AFL2941.0001.001,No,[],[]
 990013951240106381,AFY4993.0001.001,Yes,['keywords'],['keywords']
 990011530460106381,AEX6902.0001.001,Yes,['keywords'],[]
-990012570320106381,AFJ2378.0001.001,Yes,['publication place'],['publication place']
+990012570320106381,AFJ2378.0001.001,Yes,['publication place'],[]
 990019714190106381,AJL3653.0001.001,Yes,['keywords'],['keywords']
 990022438320106381,AKR5063.0001.001,No,[],[]
 990018734070106381,AJA1756.0001.001,Yes,['publication place'],[]
@@ -4124,8 +4124,8 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990016307260106381,AGY6978.0001.001,Yes,['keywords'],[]
 990011516040106381,AEX5432.0001.001,Yes,['keywords'],['keywords']
 990003278320106381,ABK5091.0001.001,No,[],[]
-990006641090106381,ACV6687.0001.001,Yes,"['publication place', 'keywords']","['title', 'publication place']"
-990006641090106381,ACV6687.0002.001,Yes,"['publication place', 'keywords']","['title', 'publication place']"
+990006641090106381,ACV6687.0001.001,Yes,"['publication place', 'keywords']",['title']
+990006641090106381,ACV6687.0002.001,Yes,"['publication place', 'keywords']",['title']
 990002789770106381,ABE5347.0001.001,Yes,"['publication place', 'publication date', 'keywords']",[]
 990018734580106381,AJA1810.0001.001,Yes,"['author', 'publication place', 'publication date']",[]
 990017378600106381,AHL2214.0001.001,Yes,"['author', 'publication place', 'publication date']",['author']
@@ -4133,8 +4133,8 @@ mms_id,id,Yes,"['title', 'author', 'publication place', 'publisher', 'publicatio
 990005755210106381,ACL6773.0001.001,No,[],[]
 990016307020106381,AGY6954.0021.002,Yes,['keywords'],['title']
 990012570340106381,AFJ2380.0001.001,Yes,['keywords'],[]
-990031995530106381,ARS2493.0001.001,Yes,"['publication place', 'publisher']",['publication place']
-990012568210106381,AFJ2165.0001.001,Yes,"['publication place', 'publisher']",['publication place']
+990031995530106381,ARS2493.0001.001,Yes,"['publication place', 'publisher']",[]
+990012568210106381,AFJ2165.0001.001,Yes,"['publication place', 'publisher']",[]
 990018709800106381,AHZ9199.0001.001,Yes,"['publication place', 'publication date']",[]
 990002390080106381,ABA4525.0001.001,Yes,['keywords'],[]
 990018709610106381,AHZ9180.0001.001,No,[],[]
