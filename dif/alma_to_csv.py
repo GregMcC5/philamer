@@ -30,7 +30,7 @@ for record in marc_dicts:
                 if key in record.keys():
                     key_counter = 1
                     for record_key in record.keys():
-                        if key == record_key:
+                        if key in record_key:
                             key_counter += 1
                     record[f"{key}_{key_counter}"] = val
                 else:
@@ -55,7 +55,7 @@ for record in marc_dicts:
                                     replace_dict[sub_key] = replace_dict[sub_key] + " " + sub_val #change
             record[key] = replace_dict
 
-mu.write_json("test_marc_dicts.json", marc_dicts)
+#mu.write_json("test_marc_dicts.json", marc_dicts)
 
 #--------------------------------------------
 #developing new list of dicts with the headings of DLXS data:
@@ -146,16 +146,34 @@ for record in marc_dicts:
         new_record_dict["alma_notes"].append(record["500"].get("a"))
     if record.get("500_2") and isinstance(record['500_2'], dict):
         new_record_dict["alma_notes"].extend(record["500_2"].values())
+    if record.get("500_3") and isinstance(record['500_3'], dict):
+        new_record_dict["alma_notes"].extend(record["500_3"].values())
+    if record.get("500_4") and isinstance(record['500_4'], dict):
+        new_record_dict["alma_notes"].extend(record["500_4"].values())
+    if record.get("500_5") and isinstance(record['500_5'], dict):
+        new_record_dict["alma_notes"].extend(record["500_5"].values())
+    if record.get("500_6") and isinstance(record['500_6'], dict):
+        new_record_dict["alma_notes"].extend(record["500_6"].values())
+    if record.get("500_7") and isinstance(record['500_7'], dict):
+        new_record_dict["alma_notes"].extend(record["500_7"].values())
+    if record.get("500_8") and isinstance(record['500_8'], dict):
+        new_record_dict["alma_notes"].extend(record["500_8"].values())
     if record.get("504") and isinstance(record['504'], dict):
         new_record_dict["alma_notes"].extend(record["504"].values())
+    if record.get("504_2") and isinstance(record['504_2'], dict):
+        new_record_dict["alma_notes"].extend(record["504_2"].values())
     if record.get("505") and isinstance(record['505'], dict):
         new_record_dict["alma_notes"].extend(record["505"].values())
     if record.get("505_2") and isinstance(record['505_2'], dict):
         new_record_dict["alma_notes"].extend(record["505_2"].values())
+    if record.get("505_3") and isinstance(record['505_3'], dict):
+        new_record_dict["alma_notes"].extend(record["505_3"].values())
     if record.get("515") and isinstance(record['515'], dict):
         new_record_dict["alma_notes"].extend(record["515"].values())
     if record.get("515_2") and isinstance(record['515_2'], dict):
         new_record_dict["alma_notes"].extend(record["515_2"].values())
+    if record.get("515_3") and isinstance(record['515_3'], dict):
+        new_record_dict["alma_notes"].extend(record["515_3"].values())
     if record.get("533") and isinstance(record["533"], dict):
         new_record_dict["alma_notes"].extend(record["533"].values())
     if record.get("533_2") and isinstance(record["533_2"], dict):
@@ -166,6 +184,8 @@ for record in marc_dicts:
         new_record_dict["alma_notes"].extend(record["590"].values())
     if record.get("590_2") and isinstance(record['590_2'], dict):
         new_record_dict["alma_notes"].extend(record["590_2"].values())
+    if record.get("590_3") and isinstance(record['590_3'], dict):
+        new_record_dict["alma_notes"].extend(record["590_3"].values())
 
 
     #--establishing alma_lang
@@ -188,6 +208,26 @@ for record in marc_dicts:
         joined_vals = " -- ".join(val_list)
         keywords.append(joined_vals)
 
+    if record.get("650_3") and isinstance(record["650_3"], dict):
+        val_list = list(record["650_3"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
+    if record.get("650_4") and isinstance(record["650_4"], dict):
+        val_list = list(record["650_4"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+    
+    if record.get("650_5") and isinstance(record["650_5"], dict):
+        val_list = list(record["650_5"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+    
+    if record.get("650_6") and isinstance(record["650_6"], dict):
+        val_list = list(record["650_6"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
     if record.get("651") and isinstance(record["651"], dict):
         val_list = list(record["651"].values())
         joined_vals = " -- ".join(val_list)
@@ -195,6 +235,31 @@ for record in marc_dicts:
 
     if record.get("651_2") and isinstance(record["651_2"], dict):
         val_list = list(record["651_2"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
+    if record.get("651_3") and isinstance(record["651_3"], dict):
+        val_list = list(record["651_3"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
+    if record.get("651_4") and isinstance(record["651_4"], dict):
+        val_list = list(record["651_4"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
+    if record.get("651_5") and isinstance(record["651_5"], dict):
+        val_list = list(record["651_5"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
+    if record.get("651_6") and isinstance(record["651_6"], dict):
+        val_list = list(record["651_6"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+    
+    if record.get("651_7") and isinstance(record["651_7"], dict):
+        val_list = list(record["651_7"].values())
         joined_vals = " -- ".join(val_list)
         keywords.append(joined_vals)
 
@@ -208,6 +273,11 @@ for record in marc_dicts:
         joined_vals = " -- ".join(val_list)
         keywords.append(joined_vals)
 
+    if record.get("600_3") and isinstance(record["600_3"], dict):
+        val_list = list(record["600_3"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
     if record.get("610") and isinstance(record["610"], dict):
         val_list = list(record["610"].values())
         joined_vals = " -- ".join(val_list)
@@ -215,6 +285,11 @@ for record in marc_dicts:
 
     if record.get("610_2") and isinstance(record["610_2"], dict):
         val_list = list(record["610_2"].values())
+        joined_vals = " -- ".join(val_list)
+        keywords.append(joined_vals)
+
+    if record.get("610_3") and isinstance(record["610_3"], dict):
+        val_list = list(record["610_3"].values())
         joined_vals = " -- ".join(val_list)
         keywords.append(joined_vals)
 
@@ -237,7 +312,7 @@ for record in marc_dicts:
 
     new_alma_dicts.append(new_record_dict)
 
-mu.write_json("new_marc_dicts.json", new_alma_dicts)
+#mu.write_json("new_marc_dicts.json", new_alma_dicts)
 
 #--------------------------------------------
 #custom conversion of alma dicts to csv; using pandas caused trouble
