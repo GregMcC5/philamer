@@ -27,7 +27,7 @@ for record in best_matches[1:]:
             if keyword_entry[4]:
                 record[9] = keyword_entry[4]
             else:
-                record[9] = keyword_entry[2]
+                record[9] = keyword_entry[3]
     #language:
     if record[7] == "mul":
         mul_lang.append([record[0], record[1], record[7], f"https://search.lib.umich.edu/catalog/record/{record[0]}", f"https://quod.lib.umich.edu/p/philamer/{record[1]}" ])
