@@ -157,7 +157,7 @@ for row in subject_entries[1:]:
                     new_row = [entry[0],entry[1],guess, new_full_tag_list, phillipines_counter, hawaii_counter, guam_counter, puerto_rico_counter, cuba_counter, virgin_islands_counter, polynesia_counter, f"title checked: {title}"]
                     subject_entries[subject_entries.index(row)] = new_row
 
-mu.write_csv("editied_subject_entries.csv", subject_entries)
+mu.write_csv("edited_subject_entries.csv", subject_entries)
 
 print("update counter:", update_counter)
 
