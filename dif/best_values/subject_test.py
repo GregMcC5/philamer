@@ -170,7 +170,7 @@ for row in subject_entries[1:]:
     else:
         aggregator[guess] = 1
 
-mu.write_json("subject_counts", aggregator)
+mu.write_json("subject_counts.json", aggregator)
 
 #----getting phi language list----
 total_list_phi = []
@@ -204,5 +204,28 @@ for row in subject_entries:
                 phi_lang_test_list.append([row[0], row[1], row[2], lang, "Suggested: Philippines", row[-1]])
 
 mu.write_csv("phi_lang_test.csv", phi_lang_test_list)
+
+#----full tag counts----
+flag_counters = {}
+for row in subject_entries[1:]:
+    for tag in row[3]:
+        if tag in flag_counters.keys():
+            flag_counters[tag] += 1
+        else:
+            flag_counters[tag] = 1
+
+mu.write_json("full_tag_counts.json", flag_counters)
+
+#----string tags counts----
+string_counters = {}
+for row in subject_entries[1:]:
+    flags = str(row[3])
+    print(flags)
+    if flags in string_counters.keys():
+        string_counters[flags] += 1
+    else:
+        string_counters[flags] = 1
+
+mu.write_json("string_tag_counts.json", string_counters)
 
 print("done")
